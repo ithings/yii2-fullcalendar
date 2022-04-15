@@ -1,0 +1,42 @@
+{
+	"name": "ithings/yii2fullcalendar",
+	"description": "Yii2 fullcalendar Widget",
+	"keywords": ["yii2", "fullcalendar","widget"],
+	"homepage": "https://github.com/ithings/yii2-fullcalendar",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Matteo Cerioni",
+			"email": "m.cerioni@ithings.it",
+			"homepage": "http://www.ithings.it",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"yiisoft/yii2": "*",
+		"npm-asset/fullcalendar" : "5.11.0",
+		"npm-asset/fullcalendar-scheduler" : "5.11.0"
+	},
+	"require-dev": {
+	},
+	"extra": {
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+	},
+	"config": {
+	    "process-timeout": 1800
+	},
+	"autoload": {
+		"psr-4": { "ithings\\yii2fullcalendar\\": "/" }
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}
