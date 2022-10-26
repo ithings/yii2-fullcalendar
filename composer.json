@@ -16,8 +16,8 @@
 	"minimum-stability": "stable",
 	"require": {
 		"yiisoft/yii2": "*",
-		"npm-asset/fullcalendar" : "5.11.0",
-		"npm-asset/fullcalendar-scheduler" : "5.11.0"
+		"npm-asset/fullcalendar" : "5.11.3",
+		"npm-asset/fullcalendar-scheduler" : "5.11.3"
 	},
 	"require-dev": {
 	},
@@ -28,7 +28,10 @@
 		}
 	},
 	"config": {
-	    "process-timeout": 1800
+	    "process-timeout": 1800,
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true
+		}
 	},
 	"autoload": {
 		"psr-4": { "ithings\\yii2fullcalendar\\": "/" }
